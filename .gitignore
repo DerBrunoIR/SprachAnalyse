@@ -2,3 +2,7 @@
 /.idea
 /venv
 /vosk*
+*.exe	
+./__pycache__
+./.$Video2StatistikKlassendiagramm.xml.bkp
+./.pytest_cache
