@@ -1,9 +1,15 @@
-Sadly, the python library for accessing the YouTube API `pytube` seems to be no longer working due to API changes made by YouTube.
+Sadly, the python library for accessing the YouTube API `pytube` seems to be no longer working due to API changes made by YouTube. 
+Therefore all scripts interacting with YouTube are no longer working too.
 
 This project includes code for generating vocabulary frequency tables from recorded speech and for downloading audio from specific YouTube channels. 
 Functionality is split into small scripts that can operate on each others output.
 
 For this personal project, all documentation is contained in this README file.
+
+# How to run
+1. `pip install -r requirements.txt`
+2. [download](https://alphacephei.com/vosk/models) vosk model `vosk-model-small-de-0.15` and put into project root
+3 . done
 
 # Scripts
 Here I want to provide interface decsriptions for all scripts.
@@ -19,10 +25,17 @@ Here I want to provide interface decsriptions for all scripts.
     - For each given audio file a transcript file is created.
     - `stdin`: newline separated file paths
     - `stdout`: newly created absolute filepaths
-- `statistics.py <files>`
-    - `stdin`: if `<files>` is empty, then newline separated file paths are expected.
+- `statistics.py [<files>]`
+    - Creates from unstructured text word frequency statistics.
+    - `<files>` are space separated files.
+    - `stdin`: if `<files>` is not given as argument, then newline separated files from stdin are expected.
     - `stdout`: semicolon separated word frequencies encoded as `<word>,<count>`.
-- `merge_statistics.py`: like `statitistics.py` but single threaded.
-- `main.py`
+- `merge_statistics.py [<files>]`:
+    - Combines all word frequency statistics from the given files 
+    - `<files>` is space separated.
+    - `stdin`: if `<files>` is not given as argument, then newline separated files from stdin are expected.
+- `main.py <channel_url> <num_videos> <target_path>`
+    Collectes video urls from the given channel, downloads audio to `<target_path>` and creates a word frequency file for all downloaded audio.
+- `download.cmd` like `main.py`. 
 
 
