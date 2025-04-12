@@ -35,7 +35,7 @@ Here I want to provide at least high level descriptions for all scripts.
 - `speech2text.py`
     - For each given audio file a transcript file is created.
     - `stdin`: newline separated file paths
-    - `stdout`: newly created absolute file paths
+    - `stdout`: absolute file paths
 - `statistics.py [<files>]`
     - Creates from unstructured text word frequency statistics.
     - `<files>` are space separated files.
