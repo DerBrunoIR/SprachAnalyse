@@ -10,6 +10,11 @@ For this personal project, all documentation is contained in this README file.
 
 PS: This is a late upload.
 
+# Missing
+- code contains no comments
+- error messages are bad
+- bad input leads to runtime errors
+
 # How to run
 1. `pip install -r requirements.txt`
 2. [download](https://ffmpeg.org/download.html) FFmpeg and put it into project root
@@ -44,6 +49,4 @@ Here I want to provide at least interface descriptions for all scripts.
     Collects video URLs from the given channel, downloads audio to `<target_path>` and creates a word frequency file for all downloaded audio.
 - `download.cmd` like `main.py`. 
 
-# TODO
-- improve code documentation
-- improve error messages
+
