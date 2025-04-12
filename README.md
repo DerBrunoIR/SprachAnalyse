@@ -12,8 +12,10 @@ PS: This is a late upload.
 
 # How to run
 1. `pip install -r requirements.txt`
-2. [download](https://alphacephei.com/vosk/models) vosk model `vosk-model-small-de-0.15` and put into project root
-3 . `python3 main.py <channel_url> <num_vidoes> <audio_target_dir>`
+2. [download](https://ffmpeg.org/download.html) FFMPEG and put it into project root
+3. [download](https://alphacephei.com/vosk/models) vosk model `vosk-model-small-de-0.15` and put it into project root
+
+`python3 main.py <channel_url> <num_vidoes> <audio_target_dir>`
 
 # Scripts
 Here I want to provide interface descriptions for all scripts.
