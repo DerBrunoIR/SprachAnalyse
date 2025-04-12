@@ -38,4 +38,6 @@ Here I want to provide interface decsriptions for all scripts.
     Collectes video urls from the given channel, downloads audio to `<target_path>` and creates a word frequency file for all downloaded audio.
 - `download.cmd` like `main.py`. 
 
-
+# TODO
+- improve code documentation
+- improve error messages
