@@ -23,7 +23,7 @@ PS: This is a late upload.
 `python3 main.py <channel_url> <num_vidoes> <audio_target_dir>`
 
 # Scripts
-Here I want to provide at least interface descriptions for all scripts.
+Here I want to provide at least high level descriptions for all scripts.
 
 - `channel.py <channel_url> <n>`:
     - `stdout`: first `n` newline separated video URLs from the given channel.
