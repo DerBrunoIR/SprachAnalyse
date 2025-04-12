@@ -1,6 +1,8 @@
 Sadly, the python library for accessing the YouTube API `pytube` seems to be no longer working due to API changes made by YouTube. 
 Therefore all scripts interacting with YouTube are no longer working too.
 
+# SprachAnalyse
+
 This project includes code for generating vocabulary frequency tables from recorded speech and for downloading audio from specific YouTube channels. 
 Functionality is split into small scripts that can operate on each others output.
 
