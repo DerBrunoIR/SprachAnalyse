@@ -8,6 +8,8 @@ Functionality is split into small scripts that can operate on each others output
 
 For this personal project, all documentation is contained in this README file.
 
+PS: This is a late upload.
+
 # How to run
 1. `pip install -r requirements.txt`
 2. [download](https://alphacephei.com/vosk/models) vosk model `vosk-model-small-de-0.15` and put into project root
