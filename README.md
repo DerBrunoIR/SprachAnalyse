@@ -11,7 +11,7 @@ For this personal project, all documentation is contained in this README file.
 # How to run
 1. `pip install -r requirements.txt`
 2. [download](https://alphacephei.com/vosk/models) vosk model `vosk-model-small-de-0.15` and put into project root
-3 . done
+3 . `python3 main.py <channel_url> <num_vidoes> <audio_target_dir>`
 
 # Scripts
 Here I want to provide interface decsriptions for all scripts.
