@@ -1,6 +1,6 @@
 
 > [!Caution]
-> The dependency `pytube` is currently broken 
+> The dependency for accessing YouTube's Api is currently broken 
 
 # SprachAnalyse
 
