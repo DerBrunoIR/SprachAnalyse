@@ -1,5 +1,6 @@
-Sadly, the python library for accessing the YouTube API `pytube` seems to be no longer working due to API changes made by YouTube. 
-Therefore, all scripts interacting with YouTube are no longer working too.
+
+> [!Caution]
+> The dependency `pytube` is currently broken 
 
 # SprachAnalyse
 
