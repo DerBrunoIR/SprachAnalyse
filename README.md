@@ -2,12 +2,13 @@
 > [!Caution]
 > The dependency used for accessing YouTube Api is currently broken 
 
+> [!Warning]
+> poor documentation
+
 # SprachAnalyse
 
 This project includes code for generating vocabulary frequency tables from recorded speech and for downloading audio from specific YouTube channels. 
 Functionality is split into small scripts that can operate on each other's output.
-
-For this personal project, all documentation is contained in this README file.
 
 PS: This is a late upload.
 
