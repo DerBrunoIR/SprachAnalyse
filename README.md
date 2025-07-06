@@ -1,6 +1,6 @@
 
 > [!Caution]
-> The dependency for accessing YouTube's Api is currently broken 
+> The dependency used for accessing YouTube Api is currently broken 
 
 # SprachAnalyse
 
